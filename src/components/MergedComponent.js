@@ -67,7 +67,7 @@ const MergedComponent = () => {
   const handleUpdate = () => {
     setOriginalList1(list1);
     setOriginalList2(list2);
-    setShowMiddleContainer(true);
+    setShowMiddleContainer(false);
 
     // Show toast message
     toast.success("Lists have been updated!");
