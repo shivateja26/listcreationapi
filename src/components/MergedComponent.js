@@ -89,7 +89,7 @@ const MergedComponent = () => {
       <div
         style={{
           ...styles.container,
-          justifyContent: showMiddleContainer ? "space-between" : "center",
+          justifyContent: showMiddleContainer ? "space-between" : "left",
         }}
       >
         <div style={styles.listContainer}>
